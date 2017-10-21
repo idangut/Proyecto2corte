@@ -104,7 +104,7 @@ public class RegistroClientes extends JFrame implements ActionListener {
             empresa=JTempresa.getText();
             sueldo=JTsueldo.getText();
             cliente= new clientes(nombre,apellido,empresa,sueldo,cedula,edad);
-            cliente1.addAll((Collection<? extends Object[]>) new RegistroClientes());
+            
 
             this.setVisible(true);
         }//if
